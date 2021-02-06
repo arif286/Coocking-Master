@@ -1,0 +1,31 @@
+body{
+    background-color: #EDD263 !important;
+}
+.recipe img {
+    width: 100%;
+}
+.recipe{
+    background: white;
+    border-radius: 8px;
+}
+.icon{
+    color: #3B2D64;
+}
+#search-button{
+    background: #3B2D64;
+    color: white;
+
+}
+#food{
+    display: none;
+}
+#foodItem{
+    display: none;
+}
+.recipe-content{
+background-color: white;
+border-radius: 0px 0px 10px 10px;
+}
+.food-img{
+    border-radius: 10px 10px 0px 0px;
+}
