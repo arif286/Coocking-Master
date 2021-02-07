@@ -11,6 +11,7 @@ body{
 #search-button{
     background: #3B2D64;
     color: white;
+    border: none;
 }
 
 .recipe-content{
