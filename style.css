@@ -11,14 +11,8 @@ body{
 #search-button{
     background: #3B2D64;
     color: white;
+}
 
-}
-/* #food{
-    display: none;
-}
-#foodItem{
-    display: none;
-} */
 .recipe-content{
 background-color: white;
 border-radius: 0px 0px 10px 10px;
