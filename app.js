@@ -9,7 +9,7 @@ const recipeLink = "https://www.themealdb.com/api/json/v1/1/search.php";
 
       document.getElementById("search-button").addEventListener("click", () => {
         const inputRecipe = document.getElementById("search-input").value;
-        if (inputRecipe.value === undefined) {
+        if (inputRecipe === "") {
           alert("please input recipe name") 
         }
         else {

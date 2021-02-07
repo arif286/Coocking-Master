@@ -12,7 +12,10 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/d3197a9222.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d3197a9222.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="container">
@@ -30,22 +33,21 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link active" href="#">About</a>
               <a class="nav-link active" href="#">Recipes</a>
-              <a
-                class="nav-link active"
-                href="#"
-                >Blog</a
-              >
+              <a class="nav-link active" href="#">Blog</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-
+    <!-- search your favorite food -->
     <section class="container">
       <form class="col-md-6 m-auto py-5">
         <div class="input-group mb-3">
@@ -63,21 +65,17 @@
         </div>
       </form>
     </section>
-         <!-- food list -->
-
-    <section id="food" class="container">
-            <div id="recipeDiv" class=" row justify-content-evenly">
-            </div>
-    </section>
 
     <!-- food ingredient list -->
-
     <section id="foodItem" class="container">
-        <div class="d-flex justify-content-center">
-            <div id="ingredient-list" class="col-6 recipe-item">
+      <div class="d-flex justify-content-center mb-5">
+        <div id="ingredient-list" class="col-6 recipe-item"></div>
+      </div>
+    </section>
 
-        </div>  
-            </div> 
+    <!-- food list -->
+    <section id="food" class="container">
+      <div id="recipeDiv" class="row justify-content-evenly"></div>
     </section>
 
     <script src="app.js"></script>
