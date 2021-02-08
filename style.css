@@ -4,6 +4,7 @@ body{
 .recipe{
     background: white;
     border-radius: 8px;
+    box-shadow: 10px 10px 20px grey;
 }
 .icon{
     color: #3B2D64;
@@ -20,4 +21,13 @@ border-radius: 0px 0px 10px 10px;
 }
 .food-img{
     border-radius: 10px 10px 0px 0px;
+}
+
+.input-box {
+    background: white;
+    border-radius: 5px;
+}
+
+input#search-input {
+    border: none;
 }
